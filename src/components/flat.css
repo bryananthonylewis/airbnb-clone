@@ -1,0 +1,23 @@
+.flats {
+  align-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+}
+.flat {
+  cursor: pointer;
+  flex-basis: calc(50% - 20px);
+  margin: 10px;
+}
+.flat:hover {
+  opacity: .9;
+}
+.flat-picture {
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  margin: 0 0 1rem;
+}
+.flat-title {
+  font-weight: bold;
+  margin: 0 0 1rem;
+}
